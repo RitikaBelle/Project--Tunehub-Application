@@ -71,17 +71,7 @@ public class PaymentController {
 		}
 		
 	}
-//	@PostMapping("/verify")
-//	@ResponseBody
-//	public boolean verifyPayment(@RequestParam String orderId, RequestParam)
-//	try {
-//		//Initilaze razorpay
-//	}
-//	public SomeEnityData postMethodName(@RequestBody SomeEnityData entity) {
-//		//TODO: process POST request
-//		
-//		return entity;
-//	}
+
 	
 
 }
