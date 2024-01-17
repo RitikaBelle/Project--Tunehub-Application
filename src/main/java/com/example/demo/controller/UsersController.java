@@ -43,6 +43,9 @@ public class UsersController {
 			return "adminHome";
 		}
 		else {
+			Users user=service.getUser(email);
+		   	boolean userStatus = user.isPremium();
+			model.addAttribute("isPremium", userStatus);
 			return "customerHome";
 		}
 	}else {
